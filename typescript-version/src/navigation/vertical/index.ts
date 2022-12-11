@@ -75,12 +75,12 @@ const navigation = (): VerticalNavItemsType => {
     {
       title: 'First logo',
       icon: Numeric1CircleOutline,
-      path: '/'
+      path: '/propuestas-logos'
     },
     {
       title: 'Second logo',
       icon: Numeric2CircleOutline,
-      path: '/'
+      path: '/propuestas-logos2'
     },
     {
       title: 'Typography',

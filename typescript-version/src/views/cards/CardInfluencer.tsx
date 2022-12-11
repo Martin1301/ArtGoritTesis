@@ -1,29 +1,20 @@
 // ** MUI Imports
 import Card from '@mui/material/Card'
-import Button from '@mui/material/Button'
+import CardMedia from '@mui/material/CardMedia'
 import Typography from '@mui/material/Typography'
-import CardHeader from '@mui/material/CardHeader'
 import CardContent from '@mui/material/CardContent'
-import CardActions from '@mui/material/CardActions'
 
 const CardInfluencer = () => {
   return (
     <Card>
-      <CardHeader title='Influencing The Influencer' />
+      <CardMedia
+        sx={{ height: '18rem', margin: '0.7rem', borderRadius: '0.3rem' }}
+        image='/images/cards/collage2.jpeg'
+      />
       <CardContent>
-        <Typography variant='body2' sx={{ marginBottom: 3.25 }}>
-          Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in
-          front of their desktops, while delivery people scan bar codes with handhelds and workers in the field stay in
-          touch.
-        </Typography>
-        <Typography variant='body2'>
-          If you’re in the market for new desktops, notebooks, or PDAs, there are a myriad of choices. Here’s a rundown
-          of some of the best systems available.
-        </Typography>
+        <Typography sx={{ marginBottom: 1 }}>by: Micaela Rojas</Typography>
+        <Typography variant='body2'>...</Typography>
       </CardContent>
-      <CardActions className='card-action-dense'>
-        <Button>Read More</Button>
-      </CardActions>
     </Card>
   )
 }
