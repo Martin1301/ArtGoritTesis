@@ -7,7 +7,7 @@ const CardSupport = () => {
     <Card>
       <CardMedia
         sx={{ height: '18rem', margin: '0.7rem', borderRadius: '0.3rem' }}
-        image='/images/cards/propuestaTd.jpeg'
+        image='/images/cards/propuestaTecsup.jpeg'
       />
     </Card>
   )

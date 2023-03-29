@@ -7,7 +7,7 @@ const CardTwitter = () => {
     <Card>
       <CardMedia
         sx={{ height: '18rem', margin: '0.7rem', borderRadius: '0.3rem' }}
-        image='/images/cards/propuestaTd2.jpeg'
+        image='/images/cards/propuestaTecsup2.jpeg'
       />
     </Card>
   )

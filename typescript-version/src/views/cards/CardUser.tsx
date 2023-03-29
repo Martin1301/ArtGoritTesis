@@ -13,7 +13,6 @@ const CardUser = () => {
       />
       <CardContent>
         <Typography sx={{ marginBottom: 1 }}>by: Juan Perez</Typography>
-        <Typography variant='body2'>...</Typography>
       </CardContent>
     </Card>
   )

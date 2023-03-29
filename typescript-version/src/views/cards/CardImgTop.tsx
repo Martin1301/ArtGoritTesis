@@ -13,7 +13,6 @@ const CardImgTop = () => {
       />
       <CardContent>
         <Typography sx={{ marginBottom: 1 }}>by: Emanuel Romani</Typography>
-        <Typography variant='body2'>...</Typography>
       </CardContent>
     </Card>
   )

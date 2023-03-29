@@ -13,7 +13,6 @@ const CardHorizontalRatings = () => {
       />
       <CardContent>
         <Typography sx={{ marginBottom: 1 }}>by: Micaela Rojas</Typography>
-        <Typography variant='body2'>...</Typography>
       </CardContent>
     </Card>
   )
